@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+" href="img/corinthianslogo.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Corinthians | Site |</title>
+  </head>
+  <body>
+      <nav>
+          <ul>
+              <li>
+                  <a href="ex000.html">Sobre mim</a>
+              </li>
+              <li>
+                  <a href="project.html">Project</a>
+              </li>
+              <li>
+                  <button data-open-modal> Logar </button>
+              </li>
+          </ul>
+  
+      </nav>
+      
+      <header>
+  
+          <div class="center">
+              <img src="./img/corinthianslogo.png"></img>
+          </div>
+          <h1>Sport Club Corinthians Paulista</h1>
+      </header>
+      <main>
+          <section>
+              <h3>Sport Club Corinthians Paulista</h3>
+              <p>É um clube poliesportivo brasileiro da cidade de São Paulo, capital do estado de São Paulo. Foi fundado como uma equipe de futebol no dia 1 de setembro de 1910 por um grupo de operários do bairro Bom Retiro. Seu nome foi inspirado no Corinthian FC de Londres, que excursionava pelo Brasil.</p>
+          </section>
+          <section>
+              <h3>Minha história</h3>
+              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+          </section>
+          <section>
+              <h3>Minha Vida</h3>
+              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+          </section>
+      </main>
+      <footer>
+          <a href="https://www.instagram.com/corinthians/" target="_blank" rel="noopener noreferrer">
+             <img src="./img/Instagram-Logo.wine.svg">
+             <p><strong>Instagram</strong></p>
+          <a href="https://twitter.com/Corinthians?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" target="_blank" rel="noopener noreferrer">
+             <img src="img/twitter-113.svg">
+             <p><strong>Twitter</strong></p>
+          <a href="https://www.youtube.com/@corinthians" target="_blank" rel="noopener noreferrer">
+             <img src="img/youtube.webp">
+             <p><strong>Youtube</strong></p>
+          </a>
+        </footer>
+
+        <dialog data-modal>
+           <div>
+                <form id="login_form">
+                    <div id="form_header">
+                        <h1>Login</h1>
+                        <i id="mode_icon" class="fa-solid fa-moon"></i>
+                    </div>
+        
+                    <div id="social_media">
+                        <a href="#">
+                            <img src="img/facebook-13.svg" alt="Facebook"></a>
+        
+                            <a href="#">
+                                <img src="img/google-37 (1).png" alt="Google"></a>
+        
+                    </div>
+        
+                    <div id="inputs">
+                        <div class="input-box">
+                            <label for="email">
+                                E-mail 
+                                <div class="input-field">
+                                    <i class="fa-solid fa-user"></i>
+                                    <input type="text" id="email" name="email">
+                                </div>
+                            </label>
+                        </div>
+                    </div>
+                    <div id="inputs">
+                        <div class="input-box">
+                            <label for="password">
+                                Passwod
+                                <div class="input-field">
+                                    <i class="fa-solid fa-key"></i>
+                                    <input type="password" id="password" name="password">
+                                </div>
+                            </label>
+        
+                            <div id="forgot_password">
+                                <a href="#">
+                                    Forgot your password?
+                                </a>
+                            </div>
+                        </div>
+                        <div id="data-modal">
+                            <div class="data_modal"></div>
+                        </div>
+                    </div>
+        
+                    <button type="submit" id="login_button">
+                        Login
+                    </button>
+
+                    <button type="submit"  id="data-close-modal"> 
+                        Voltar 
+                    </button>
+                </form>  
+            </div>
+        </dialog>
+    <div id="app"></div>
+    <script type="module" src="/main.js"></script>
+
+  </body>
+</html>
