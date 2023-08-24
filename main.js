@@ -1,10 +1,10 @@
 import './style.css'
 import './style2.css'
-const openButton = document.querySelector("[data-open-modal]")
+const o = document.querySelector("[data-open-modal]")
 const closeButton = document.querySelector("#data-close-modal")
 const modal = document.querySelector("[data-modal]")
 
-openButton.addEventListener("click", () => {
+o.addEventListener("click", () => {
     modal.showModal()
     
 })
